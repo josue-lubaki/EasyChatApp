@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BoilerPlate</string>
+    <string name="alithya_logo_icon">Icon Alithya</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_profile">Profile</string>
+</resources>

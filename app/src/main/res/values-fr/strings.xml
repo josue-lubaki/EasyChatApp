@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BoilerPlate</string>
+    <string name="alithya_logo_icon">Icon Alithya</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_search">Recherche</string>
+    <string name="menu_profile">Profil</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="work_skills">Compétences métiers</string>
+    <string name="log_out">Déconnexion</string>
+    <string name="app_name">Sequoia</string>
+    <string name="version">1.0.0</string>
+    <string name="my_profile">Mon Profil</string>
+    <string name="profile">Profil</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="change_profession">Changer de profession</string>
+    <string name="save">Sauvegarder</string>
+</resources>

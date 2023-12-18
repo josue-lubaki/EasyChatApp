@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_unauthorized">Activez votre compte via le lien envoyé par courriel pour vous connecter</string>
+    <string name="error_server_connection">Le serveur n\'est pas disponible \nVeuillez réessayer plus tard.</string>
+    <string name="error_internet_connection">Veuillez vérifier votre connexion internet</string>
+    <string name="error_unknown">Une erreur s\'est produite</string>
+    <string name="error_csrf_token_missing">CSFR Token Missing</string>
+    <string name="error_access_token_missing">Access Token Missing</string>
+    <string name="error_register_failed">Échec de l\'enregistrement</string>
+    <string name="login_bad_request_msg">Informations incorrectes</string>
+    <string name="bad_request_msg">Incorrect login informations</string>
+    <string name="invalid_password">Le mot de passe actuel n\'est pas valide</string>
+
+    <string name="warning_icon">warning Icon</string>
+    <string name="on_site">Sur place</string>
+    <string name="online">En ligne</string>
+    <string name="alithya_logo">alithya logo icon</string>
+    <string name="login_main_subtitle">Sequoia</string>
+    <string name="new_tag">Nouveau</string>
+    <string name="on_video">Video</string>
+    <string name="courses">Formations</string>
+    <string name="people">Personnes</string>
+    <string name="login_copyright_msg">© Copyright Alithya - 2022</string>
+    <string name="login_policy_msg_small">Privacy Policy | Terms of use |\nAccessibility Statement</string>
+    <string name="minimum_8_caract_res">8 caractères ou plus</string>
+    <string name="au_moins_une_majuscule">Au moins une lettre majuscule</string>
+    <string name="au_moins_une_minuscule">Au moins une lettre minuscule</string>
+    <string name="au_moins_deux_chiffres">2 chiffres ou plus</string>
+    <string name="au_moins_un_symbole">1 symbole parmi @!#$%</string>
+    <string name="password_contain">Votre mot de passe doit contenir au moins :</string>
+    <string name="account_information">Information du compte</string>
+    <string name="work_skills">Compétences métiers</string>
+    <string name="settings">Paramètres</string>
+    <string name="change_password">Changer mon mot de passe</string>
+    <string name="change_profession">Changer de profession</string>
+    <string name="search_for_a_course">Rechercher une formation</string>
+</resources>

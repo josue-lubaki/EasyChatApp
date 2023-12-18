@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S\'inscrire</string>
+    <string name="register_screen">Page d\'inscription</string>
+    <string name="register_main_title">Créez\nvotre compte</string>
+    <string name="register_main_title_without_break">Créez votre compte</string>
+    <string name="register_first_name_placeholder">Prénom</string>
+    <string name="register_first_name_field_title">Prénom</string>
+    <string name="register_last_name_field_title">Nom</string>
+    <string name="register_last_name_placeholder">Nom</string>
+    <string name="register_email_field_title">Courriel</string>
+    <string name="register_email_placeholder">prenom.nom@alithya.com</string>
+    <string name="register_password_field_title">Mot de passe</string>
+    <string name="register_password_placeholder">••••••</string>
+    <string name="register_confirm_password_field_title">Confirmer le mot de passe</string>
+    <string name="register_confirm_password_placeholder">Confirmer le mot de passe</string>
+    <string name="minimum_8_caract_res">8 caractères ou plus</string>
+    <string name="au_moins_une_majuscule">Au moins une lettre majuscule</string>
+    <string name="au_moins_une_minuscule">Au moins une lettre minuscule</string>
+    <string name="au_moins_deux_chiffres">2 chiffres ou plus</string>
+    <string name="au_moins_un_symbole">1 symbole parmi @!#$%</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="already_have_an_account">Vous avez déjà un compte ?</string>
+    <string name="login">Se connecter</string>
+    <string name="background_alithya">background logo</string>
+    <string name="register_copyright_msg">© Copyright Alithya - 2022</string>
+    <string name="register_policy_msg">Privacy Policy | Terms of use | Accessibility Statement</string>
+    <string name="invalid_email_address">adresse e-mail invalide</string>
+    <string name="passwords_do_not_match">Les deux mots de passe ne correspondent pas</string>
+    <string name="error_server_connection">Le serveur n\'est pas disponible \nVeuillez réessayer plus tard.</string>
+    <string name="register_error_unknown">Une erreur est survenue</string>
+    <string name="register_error_unauthorized">Activez votre compte via le lien envoyé par courriel pour vous connecter</string>
+</resources>

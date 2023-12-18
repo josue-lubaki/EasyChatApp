@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_unauthorized">Activate your account via the link sent by email to log in</string>
+    <string name="error_server_connection">The server is not available \nPlease try again later.</string>
+    <string name="error_internet_connection">Please check your internet connection</string>
+    <string name="error_unknown">An internal error has occurred, the technical service has been informed</string>
+    <string name="error_csrf_token_missing">CSFR Token Missing</string>
+    <string name="error_access_token_missing">Access Token Missing</string>
+    <string name="error_register_failed">Register failed</string>
+    <string name="login_bad_request_msg">Incorrect login informations</string>
+    <string name="bad_request_msg">Incorrect informations</string>
+    <string name="invalid_password">Current password is invalid</string>
+
+    <string name="warning_icon">warning Icon</string>
+    <string name="on_site">On site</string>
+    <string name="online">Online</string>
+    <string name="alithya_logo">alithya logo icon</string>
+    <string name="login_main_subtitle">Sequoia</string>
+    <string name="new_tag">New</string>
+    <string name="on_video">Video</string>
+    <string name="courses">Courses</string>
+    <string name="people">People</string>
+    <string name="login_copyright_msg">© Copyright Alithya - 2022</string>
+    <string name="login_policy_msg_small">Privacy Policy | Terms of use |\nAccessibility Statement</string>
+    <string name="minimum_8_caract_res">8 characters or more</string>
+    <string name="au_moins_une_majuscule">At leat 1 capital letters</string>
+    <string name="au_moins_une_minuscule">At leat 1 lower case letter</string>
+    <string name="au_moins_deux_chiffres">2 or more digits</string>
+    <string name="au_moins_un_symbole">1 symbol among @!#$%</string>
+    <string name="password_contain">Your password must contain at least :</string>
+    <string name="account_information">Account Information</string>
+    <string name="work_skills">Work Skills</string>
+    <string name="settings">Settings</string>
+    <string name="change_password">Change my password</string>
+    <string name="change_profession">Change Profession</string>
+    <string name="search_for_a_course">Search for a course</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sequoia</string>
+    <string name="login_main_title">Log In</string>
+    <string name="login_email_title">Email</string>
+    <string name="login_email_hint">name.lastname@alithya.com</string>
+    <string name="login_password_title">Password</string>
+    <string name="login_password_cd">Password</string>
+    <string name="login_buttonSignIn_action">Login</string>
+    <string name="login_forgetPassword_title">Forgot password?</string>
+    <string name="login_buttonRegister_action">Register</string>
+    <string name="login_register_title">You don\'t have an account yet ?</string>
+    <string name="login_copyright_msg">© Copyright Alithya - 2022</string>
+    <string name="login_policy_msg">Privacy Policy | Terms of use | Accessibility Statement</string>
+
+    <string name="search_main_title">Welcome to\nyour learning portal.</string>
+    <string name="search_searchbar_hint">Search subjects, discipline or job title…</string>
+    <string name="search_searchbar_cd">Search subjects, discipline or job title…</string>
+    <string name="background_alithya">background logo</string>
+    <string name="warning_icon">warning Icon</string>
+    <string name="login_password_hint">••••••</string>
+    <string name="login_bad_request_msg">Incorrect login informations</string>
+    <string name="register_error_unauthorized">Activate your account via the link sent by email to log in</string>
+    <string name="error_server_connection">The server is not available \nPlease try again later.</string>
+    <string name="register_error_internet_connection">Please check your internet connection</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="register_screen">Register Screen</string>
+    <string name="register_main_title">Create\nyour account</string>
+    <string name="register_main_title_without_break">Create your account</string>
+    <string name="register_first_name_placeholder">First name</string>
+    <string name="register_first_name_field_title">First name</string>
+    <string name="register_last_name_field_title">Last name</string>
+    <string name="register_last_name_placeholder">Last name</string>
+    <string name="register_email_field_title">Email</string>
+    <string name="register_email_placeholder">firstname.lastname@alithya.com</string>
+    <string name="register_password_field_title">Password</string>
+    <string name="register_password_placeholder">••••••</string>
+    <string name="register_confirm_password_field_title">Confirm password</string>
+    <string name="register_confirm_password_placeholder">Confirm password</string>
+    <string name="minimum_8_caract_res">8 characters or more</string>
+    <string name="au_moins_une_majuscule">At leat 1 capital letter</string>
+    <string name="au_moins_une_minuscule">At leat 1 lower case letter</string>
+    <string name="au_moins_deux_chiffres">2 or more digits</string>
+    <string name="au_moins_un_symbole">1 symbol among @!#$%</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="login">Login</string>
+    <string name="background_alithya">background logo</string>
+    <string name="register_copyright_msg">© Copyright Alithya - 2022</string>
+    <string name="register_policy_msg">Privacy Policy | Terms of use | Accessibility Statement</string>
+    <string name="invalid_email_address">Invalid email address</string>
+    <string name="passwords_do_not_match">The two passwords do not match</string>
+    <string name="error_server_connection">The server is not available \nPlease try again later.</string>
+    <string name="register_error_unknown">An error occurred</string>
+    <string name="register_error_unauthorized">Activate your account via the link sent by email to log in</string>
+</resources>

@@ -1,0 +1,1 @@
+package ca.josuelubaki.easychat.ui.theme

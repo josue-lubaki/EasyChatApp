@@ -1,0 +1,95 @@
+[versions]
+agp = "8.0.2"
+cliktVersion = "3.5.2"
+kotlin = "1.8.10"
+core-ktx = "1.10.1"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+kotlinxCliVersion = "0.3.5"
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.7.2"
+compose-bom = "2023.09.02"
+appcompat = "1.6.1"
+coilVersion = "2.4.0"
+koinVersion = "3.4.3"
+konsistVersion = "0.12.0"
+
+navigationComposeVersion = "2.6.0"
+retrofitVersion = "2.9.0"
+okhttpVersion = "4.9.1"
+timberVersion = "5.0.1"
+mockk_version = "1.13.4"
+coroutines_test_version = "1.6.4"
+junitExtVersion = "1.1.5"
+datastoreVersion = "1.0.0"
+accompanistVersion = "0.31.0-alpha"
+androidx_window = "1.0.0"
+hiltAndroidTestingVersion = "2.44"
+
+ksp = "1.8.10-1.0.9"
+serializationVersion = "1.8.10"
+kapt = "1.8.10"
+org-jetbrains-kotlin-jvm = "1.8.10"
+materialVersion = "1.10.0"
+
+[libraries]
+clikt = { module = "com.github.ajalt.clikt:clikt", version.ref = "cliktVersion" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+junit-ext = { group = "androidx.test.ext", name = "junit", version.ref = "junitExtVersion" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+kotlinx-cli = { module = "org.jetbrains.kotlinx:kotlinx-cli", version.ref = "kotlinxCliVersion" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+window-size = { group = "androidx.compose.material3", name = "material3-window-size-class" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastoreVersion" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationComposeVersion" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpVersion" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timberVersion" }
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koinVersion" }
+koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koinVersion" }
+koin-android-scope = { group = "io.insert-koin", name = "koin-android-scope", version = "2.2.3" }
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilVersion" }
+konsist = { group = "com.lemonappdev", name = "konsist", version.ref = "konsistVersion" }
+accompanist-navigation-animation = { group = "com.google.accompanist", name = "accompanist-navigation-animation", version.ref = "accompanistVersion" }
+
+serialization-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "serializationVersion" }
+agp-tools = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk_version" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines_test_version" }
+navigation-test = { group = "androidx.navigation", name = "navigation-testing", version.ref = "navigationComposeVersion" }
+androidx-window = { group = "androidx.window", name = "window", version.ref = "androidx_window" }
+accompanist-adaptive = { group = "com.google.accompanist", name = "accompanist-adaptive", version.ref = "accompanistVersion" }
+
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidTestingVersion" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hiltAndroidTestingVersion" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hiltAndroidTestingVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kspPlugin = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+serializationPlugin = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serializationVersion" }
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
+
+[bundles]
+

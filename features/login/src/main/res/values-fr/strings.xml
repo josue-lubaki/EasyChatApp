@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sequoia</string>
+    <string name="login_main_title">Se connecter</string>
+    <string name="login_email_title">Courriel</string>
+    <string name="login_email_hint">prenom.nom@alithya.com</string>
+    <string name="login_password_title">Mot de passe</string>
+    <string name="login_password_cd">Mot de passe</string>
+    <string name="login_buttonSignIn_action">Se connecter</string>
+    <string name="login_forgetPassword_title">Mot de passe oublié?</string>
+    <string name="login_buttonRegister_action">S\'inscrire</string>
+    <string name="login_register_title">Vous n\'avez pas encore de compte ?</string>
+    <string name="login_copyright_msg">© Copyright Alithya - 2022</string>
+    <string name="login_policy_msg">Privacy Policy | Terms of use | Accessibility Statement</string>
+    <string name="search_main_title">Bienvenue sur\nvotre portail d\'apprentissage.</string>
+    <string name="search_searchbar_hint">Recherchez des sujets, des disciplines ou des titres d\'emploi…</string>
+    <string name="search_searchbar_cd">Recherchez des sujets, des disciplines ou des titres d\'emploi…</string>
+    <string name="background_alithya">background logo</string>
+    <string name="warning_icon">warning Icon</string>
+    <string name="login_password_hint">••••••</string>
+    <string name="login_bad_request_msg">Informations incorrectes</string>
+    <string name="register_error_unauthorized">Activez votre compte via le lien envoyé par courriel pour vous connecter</string>
+    <string name="error_server_connection">Le serveur n\'est pas disponible \nVeuillez réessayer plus tard.</string>
+    <string name="register_error_internet_connection">Veuillez vérifier votre connexion internet</string>
+</resources>
