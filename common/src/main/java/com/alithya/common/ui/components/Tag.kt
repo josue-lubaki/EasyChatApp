@@ -20,7 +20,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.tooling.preview.Preview
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 /**
@@ -92,7 +92,7 @@ fun NewTag(
 @Preview
 @Composable
 private fun NewTagPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Box(
             modifier = Modifier
                 .background(MaterialTheme.colorScheme.background)
@@ -107,7 +107,7 @@ private fun NewTagPreview() {
 @Preview
 @Composable
 private fun NewTagFrenchPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Box(
             modifier = Modifier
                 .background(MaterialTheme.colorScheme.background)

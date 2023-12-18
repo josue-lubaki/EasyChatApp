@@ -6,6 +6,9 @@ import com.alithya.common.utils.Constants.UUID_ARGUMENT_KEY
 sealed class ScreenTarget(val route : String) {
     object Splash : ScreenTarget("splash")
     object Login : ScreenTarget("login")
+    object LoginATP : ScreenTarget("loginatp")
+    object LoginOTP : ScreenTarget("loginotp")
+    object LoginUsername : ScreenTarget("loginUsername")
     object Register : ScreenTarget("register")
     object Home : ScreenTarget("home")
     object Search : ScreenTarget("search")

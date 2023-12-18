@@ -71,7 +71,7 @@ private val LightColorScheme  = lightColorScheme(
 )
 
 @Composable
-fun BoilerPlateTheme(
+fun EasyChatTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit

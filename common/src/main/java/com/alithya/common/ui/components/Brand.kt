@@ -22,7 +22,7 @@ import com.alithya.common.ui.themes.BRAND_HEIGHT
 import com.alithya.common.ui.themes.BRAND_HEIGHT_LANDSCAPE
 import com.alithya.common.ui.themes.BRAND_WIDTH
 import com.alithya.common.ui.themes.BRAND_WIDTH_LANDSCAPE
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 @Composable
@@ -61,7 +61,7 @@ fun Brand(
 @Preview(showBackground = true, backgroundColor = 0xFF176DFC)
 @Composable
 private fun BrandPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Brand()
     }
 }
@@ -69,7 +69,7 @@ private fun BrandPreview() {
 @Preview(showBackground = true, backgroundColor = 0xFF176DFC)
 @Composable
 private fun BrandLandScapePreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Brand(isLandScape = true)
     }
 }

@@ -16,7 +16,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import com.alithya.common.di.dataStoreModule
 import com.alithya.common.di.networkModule
 import com.alithya.common.di.userModule
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.features.login.di.loginModule
 import com.alithya.features.login.presentation.LoginScreen
 import org.junit.Before
@@ -54,7 +54,7 @@ class LoginScreenTest {
             navController = TestNavHostController(LocalContext.current)
             navController.navigatorProvider.addNavigator(ComposeNavigator())
 
-            BoilerPlateTheme {
+            EasyChatTheme {
                 LoginScreen(
                     navController = navController,
                 )

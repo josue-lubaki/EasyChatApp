@@ -2,22 +2,19 @@ package ca.josuelubaki.easychat.navigation
 
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
+import ca.josue_lubaki.loginatp.presentation.screens.LoginATPScreen
+import ca.josue_lubaki.loginatp.presentation.screens.LoginOTPScreen
 import com.alithya.common.navigation.ScreenTarget
-import com.alithya.common.utils.Constants
 import com.alithya.common.utils.Constants.EMAIL_ARGUMENT_KEY
-import com.alithya.features.login.presentation.LoginScreen
-import com.alithya.features.login.presentation.LoginViewModel
 import com.alithya.features.register.presentation.RegisterScreen
 import com.alithya.forgot_password.presentation.forgot.ForgotPasswordScreen
 import com.alithya.forgot_password.presentation.reset.ResetPasswordScreen
 import com.google.accompanist.navigation.animation.composable
 import com.google.accompanist.navigation.animation.navigation
-import org.koin.androidx.viewmodel.ext.android.getViewModel
 
 /**
  * created by Josue Lubaki
@@ -32,12 +29,19 @@ fun NavGraphBuilder.authNavigationGraph(
 ) {
     navigation(
         route = Graph.AUTH,
-        startDestination = ScreenTarget.Login.route
+        startDestination = ScreenTarget.LoginATP.route
     ) {
-        composable(ScreenTarget.Login.route) {
-            LoginScreen(
+        composable(ScreenTarget.LoginATP.route) {
+            LoginATPScreen(
                 navController = navController,
-                windowSize = windowSize,
+//                windowSize = windowSize,
+            )
+        }
+
+        composable(ScreenTarget.LoginOTP.route) {
+            LoginOTPScreen(
+                navController = navController,
+//                windowSize = windowSize,
             )
         }
 

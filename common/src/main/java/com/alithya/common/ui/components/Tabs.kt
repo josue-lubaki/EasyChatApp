@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.alithya.common.ui.models.TabOptionModel
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 /**
@@ -112,7 +112,7 @@ private fun TabOption(
 private fun TabsPreview() {
     val selected = remember { mutableStateOf<TabOptionModel>(TabOptionModel.Courses) }
 
-    BoilerPlateTheme {
+    EasyChatTheme {
         Tabs(
             options = listOf(
                 TabOptionModel.Courses,

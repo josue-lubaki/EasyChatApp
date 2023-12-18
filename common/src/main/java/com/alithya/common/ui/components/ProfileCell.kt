@@ -24,7 +24,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alithya.common.ui.models.ProfileCellModel
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 
 @Composable
 fun ProfileCell(
@@ -83,7 +83,7 @@ fun ProfileCell(
 @Preview
 @Composable
 private fun ProfileCellPreview() {
-    BoilerPlateTheme(dynamicColor = false){
+    EasyChatTheme(dynamicColor = false){
         ProfileCell(
             option = ProfileCellModel.AccountInformation,
             onNavigateToRoute = {},

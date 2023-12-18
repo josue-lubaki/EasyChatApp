@@ -33,7 +33,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alithya.common.ui.themes.Black
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.Gray300
 import com.alithya.common.ui.themes.Primary15
 import com.alithya.common.ui.themes.White
@@ -164,7 +164,7 @@ fun TextFieldCreator(
 @Preview(showBackground = true)
 @Composable
 private fun TextFieldCreatorPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Box(
             modifier = Modifier.padding(16.dp),
             contentAlignment = Alignment.Center
@@ -192,7 +192,7 @@ private fun TextFieldCreatorPreview() {
 @Preview(showBackground = true)
 @Composable
 private fun TextFieldCreatorPasswordPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Box(
             modifier = Modifier.padding(16.dp),
             contentAlignment = Alignment.Center

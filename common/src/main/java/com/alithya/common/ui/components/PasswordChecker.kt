@@ -21,7 +21,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 
 @Composable
 fun PasswordChecker(
@@ -100,7 +100,7 @@ fun PasswordCriteria(criteria: String, isMet: Boolean, testTag: String) {
 @Preview(showBackground = true)
 @Composable
 private fun PasswordCheckerRightPassword() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         PasswordChecker(
             password = "Password12@",
             onValidPassword = {}
@@ -111,7 +111,7 @@ private fun PasswordCheckerRightPassword() {
 @Preview(showBackground = true)
 @Composable
 private fun PasswordCheckerWrongPassword() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         PasswordChecker(
             password = "pass12",
             onValidPassword = {}

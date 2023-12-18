@@ -22,7 +22,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 
 @Composable
 fun AlertMessage(
@@ -67,7 +67,7 @@ fun AlertMessage(
 @Preview(showBackground = true)
 @Composable
 private fun AlertMessagePreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         AlertMessage(
             message = "Incorrect login informations",
         )
@@ -77,7 +77,7 @@ private fun AlertMessagePreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 private fun AlertMessageDarkPreview() {
-    BoilerPlateTheme(darkTheme = true) {
+    EasyChatTheme(darkTheme = true) {
         AlertMessage(
             message = "Incorrect login informations",
         )

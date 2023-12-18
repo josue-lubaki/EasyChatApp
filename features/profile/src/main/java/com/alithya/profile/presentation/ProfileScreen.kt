@@ -36,7 +36,7 @@ import com.alithya.common.ui.components.HeaderNav
 import com.alithya.common.ui.components.ProfileCell
 import com.alithya.common.ui.components.ProfilePicture
 import com.alithya.common.ui.models.ProfileCellModel
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 import com.alithya.common.utils.AllPreview
 import com.alithya.profile.BuildConfig
@@ -345,7 +345,7 @@ private fun ProfileInformation(
 @AllPreview
 @Composable
 private fun ScreenPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         SmallScreen(
             state = ProfileState.Idle,
             options = listOf(

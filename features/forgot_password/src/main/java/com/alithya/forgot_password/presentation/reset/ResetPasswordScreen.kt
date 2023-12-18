@@ -45,7 +45,7 @@ import com.alithya.common.ui.components.ButtonBack
 import com.alithya.common.ui.components.ButtonPrimary
 import com.alithya.common.ui.components.PasswordChecker
 import com.alithya.common.ui.components.TextFieldCreator
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.RoundedCornerShapeTop
 import com.alithya.common.ui.themes.dimensions
 import com.alithya.common.utils.AllPreview
@@ -373,7 +373,7 @@ fun LandscapeScreen(
 @AllPreview
 @Composable
 private fun PortraitScreenPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         PortraitScreen(
             onBackPressed = { },
             onConfirmClicked = { _, _ -> }

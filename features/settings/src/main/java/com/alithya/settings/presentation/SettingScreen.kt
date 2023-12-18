@@ -31,13 +31,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Devices
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alithya.common.ui.components.ButtonBack
 import com.alithya.common.ui.components.ButtonPrimary
 import com.alithya.common.ui.components.HeaderNav
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.Primary50
 import com.alithya.common.ui.themes.dimensions
 import com.alithya.common.utils.AllPreview
@@ -341,7 +339,7 @@ fun SettingLargeScreen(
 @AllPreview
 @Composable
 private fun ScreenPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         SettingSmallScreen(
             currentLanguage = Locale.getDefault().language,
             onBackPressed = { false },

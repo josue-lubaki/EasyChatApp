@@ -43,7 +43,7 @@ import com.alithya.common.ui.components.ButtonSecondary
 import com.alithya.common.ui.components.CircularProgressBar
 import com.alithya.common.ui.components.PasswordChecker
 import com.alithya.common.ui.components.TextFieldCreator
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.RoundedCornerShapeTop
 import com.alithya.common.ui.themes.dimensions
 import com.alithya.common.utils.AllPreview
@@ -450,7 +450,7 @@ fun Forms(
 @AllPreview
 @Composable
 private fun ScreenPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         SmallScreen(
             state = RegisterState.Idle,
             registerErrorMessage = null,

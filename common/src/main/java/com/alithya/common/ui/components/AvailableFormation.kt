@@ -22,7 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 /**
@@ -76,7 +76,7 @@ fun Available(
 @Preview
 @Composable
 private fun AvailablePreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Box(
             modifier = Modifier
                 .background(MaterialTheme.colorScheme.background)

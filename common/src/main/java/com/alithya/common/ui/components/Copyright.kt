@@ -12,7 +12,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 @Composable
@@ -45,7 +45,7 @@ fun Copyright(
 @Preview(showBackground = true)
 @Composable
 private fun CopyrightPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         Copyright()
     }
 }

@@ -65,6 +65,7 @@ dependencies {
 
     implementation(projects.common)
     implementation(projects.features.login)
+    implementation(projects.features.loginatp)
     implementation(projects.features.register)
     implementation(projects.features.forgotPassword)
     implementation(projects.features.profile)
