@@ -30,7 +30,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 /**
@@ -134,7 +134,7 @@ fun SearchBar(
 @Composable
 private fun SearchBarPreview() {
     val text = remember { mutableStateOf("") }
-    BoilerPlateTheme {
+    EasyChatTheme {
         SearchBar(
             text = text.value,
             onTextChange = {

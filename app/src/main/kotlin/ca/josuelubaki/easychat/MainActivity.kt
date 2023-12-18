@@ -15,7 +15,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import ca.josuelubaki.easychat.navigation.SetupNavGraph
 import com.alithya.common.data.datasource.datasourceimpl.DataStoreOperationsImpl
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.utils.LocaleUtils.setLocale
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import kotlinx.coroutines.flow.distinctUntilChanged
@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
 //                }
 //            }
 
-            BoilerPlateTheme {
+            EasyChatTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

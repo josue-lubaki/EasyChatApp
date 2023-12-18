@@ -23,7 +23,7 @@ import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.size.Size
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 
 @Composable
 fun ProfilePicture(
@@ -96,7 +96,7 @@ private fun DefaultProfile(
 @Preview
 @Composable
 private fun ProfilePicturePreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ProfilePicture()
     }
 }

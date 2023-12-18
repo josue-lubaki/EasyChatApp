@@ -36,7 +36,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.toSize
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 
 /**
@@ -149,7 +149,7 @@ fun DropDownMenu(
 fun DropDownMenuPreview() {
     val text = remember { mutableStateOf("") }
     val expanded = remember { mutableStateOf(false) }
-    BoilerPlateTheme {
+    EasyChatTheme {
         Column(
             modifier = Modifier
                 .fillMaxSize()

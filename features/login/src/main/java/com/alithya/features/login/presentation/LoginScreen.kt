@@ -1,7 +1,5 @@
 package com.alithya.features.login.presentation
 
-import android.app.LocaleConfig
-import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -19,7 +17,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import org.koin.androidx.compose.koinViewModel
 import androidx.compose.runtime.LaunchedEffect
@@ -38,7 +35,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.tooling.preview.Devices
 import androidx.navigation.NavHostController
 import com.alithya.common.navigation.ScreenTarget
 import com.alithya.common.ui.components.AlertMessage
@@ -47,11 +43,10 @@ import com.alithya.common.ui.components.ButtonPrimary
 import com.alithya.common.ui.components.ButtonSecondary
 import com.alithya.common.ui.components.CircularProgressBar
 import com.alithya.common.ui.components.TextFieldCreator
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.RoundedCornerShapeTop
 import com.alithya.common.ui.themes.dimensions
 import com.alithya.common.utils.AllPreview
-import com.alithya.common.utils.HttpError
 import com.alithya.features.login.R
 import timber.log.Timber
 
@@ -403,7 +398,7 @@ fun Register(
 @AllPreview
 @Composable
 private fun ScreenPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         Content(
             windowSize = WindowWidthSizeClass.Expanded,
             state = LoginState.Idle,

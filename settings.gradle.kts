@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven(url = "https://jitpack.io")
     }
 }
 
@@ -28,3 +29,4 @@ include(":features:profile")
 include(":features:settings")
 include(":setup")
 include(":features:chat")
+include(":features:loginatp")

@@ -16,7 +16,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import com.alithya.common.di.dataStoreModule
 import com.alithya.common.di.networkModule
 import com.alithya.common.di.userModule
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.features.register.di.registerModule
 import com.alithya.features.register.presentation.RegisterScreen
 import org.junit.Before
@@ -53,7 +53,7 @@ class RegisterScreenTest {
             navController = TestNavHostController(LocalContext.current)
             navController.navigatorProvider.addNavigator(ComposeNavigator())
 
-            BoilerPlateTheme {
+            EasyChatTheme {
                 RegisterScreen(
                     navController = navController,
                 )

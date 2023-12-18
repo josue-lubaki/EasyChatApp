@@ -42,7 +42,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import ca.josuelubaki.easychat.models.BottomMenu
 import com.alithya.common.navigation.ScreenTarget
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.dimensions
 import com.alithya.common.utils.Constants.EXPAND_DURATION
 import com.alithya.common.utils.Constants.FADE_DURATION_DEFAULT
@@ -370,7 +370,7 @@ fun NavigationRails(
 @Preview(showBackground = true)
 @Composable
 fun AppScreenPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         AppScreen(
             rootNavController = rememberNavController(),
             navController = rememberNavController(),
@@ -381,7 +381,7 @@ fun AppScreenPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 fun AppScreenDarkPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         AppScreen(
             rootNavController = rememberNavController(),
             navController = rememberNavController(),
@@ -392,7 +392,7 @@ fun AppScreenDarkPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES, device = Devices.PIXEL_C)
 @Composable
 fun AppScreenLargeDarkPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         AppScreen(
             rootNavController = rememberNavController(),
             navController = rememberNavController(),

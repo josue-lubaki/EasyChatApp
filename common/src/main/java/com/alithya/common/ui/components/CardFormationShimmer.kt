@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.ButtonRoundedCornerShape
 import com.alithya.common.ui.themes.dimensions
 
@@ -92,7 +92,7 @@ fun CardFormationShimmer(
 @Preview
 @Composable
 fun CardFormationShimmerPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         AnimateShimmerEffect {
             CardFormationShimmer(alpha = it)
         }

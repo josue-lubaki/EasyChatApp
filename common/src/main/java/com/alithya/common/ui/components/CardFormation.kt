@@ -23,7 +23,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import com.alithya.common.R
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.ButtonRoundedCornerShape
 import com.alithya.common.ui.themes.dimensions
 
@@ -133,7 +133,7 @@ fun CardFormation(
 @Preview
 @Composable
 private fun CardFormationOnlinePreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         CardFormation(
             id = "1",
             title = "Angular - The Complete Guide (2023 Edition)",
@@ -149,7 +149,7 @@ private fun CardFormationOnlinePreview() {
 @Preview
 @Composable
 private fun CardFormationOnSitePreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         CardFormation(
             id = "1",
             title = "Angular - The Complete Guide (2023 Edition)",

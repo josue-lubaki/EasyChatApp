@@ -21,7 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 
 @Composable
 fun OptionCell(
@@ -61,7 +61,7 @@ fun OptionCell(
 @Preview(showBackground = true)
 @Composable
 private fun OptionCellPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         OptionCell(
             title = "Work Skils",
             optionSelected = remember { mutableStateOf("Work Skils")}

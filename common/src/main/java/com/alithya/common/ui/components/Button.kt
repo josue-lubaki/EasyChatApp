@@ -27,7 +27,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 import com.alithya.common.ui.themes.ButtonRoundedCornerShape
 import com.alithya.common.ui.themes.dimensions
 
@@ -64,7 +64,7 @@ private fun ButtonBase(
         border = border,
     ) {
         Text(
-            modifier = Modifier.testTag("$testTag-text"),
+            modifier = Modifier.testTag("$testTag-text").padding(vertical = 0.dp),
             text = text,
             style = textStyle,
             color = if(enabled) textColor else MaterialTheme.colorScheme.onSurfaceVariant,
@@ -221,7 +221,7 @@ fun ButtonBack(
 @Preview(showBackground = true)
 @Composable
 private fun ButtonPrimaryPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonPrimary(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Primary".uppercase(),
@@ -234,7 +234,7 @@ private fun ButtonPrimaryPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 private fun ButtonPrimaryDarkPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonPrimary(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Primary".uppercase(),
@@ -247,7 +247,7 @@ private fun ButtonPrimaryDarkPreview() {
 @Preview(showBackground = true)
 @Composable
 private fun ButtonSecondaryPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonSecondary(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Secondary".uppercase(),
@@ -259,7 +259,7 @@ private fun ButtonSecondaryPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 private fun ButtonSecondaryDarkPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonSecondary(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Secondary".uppercase(),
@@ -271,7 +271,7 @@ private fun ButtonSecondaryDarkPreview() {
 @Preview(showBackground = true)
 @Composable
 private fun ButtonLogoutPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonLogout(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Logout".uppercase(),
@@ -283,7 +283,7 @@ private fun ButtonLogoutPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 private fun ButtonLogoutDarkPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonLogout(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Logout".uppercase(),
@@ -295,7 +295,7 @@ private fun ButtonLogoutDarkPreview() {
 @Preview(showBackground = true)
 @Composable
 private fun ButtonDisabledPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonSecondary(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Disabled".uppercase(),
@@ -308,7 +308,7 @@ private fun ButtonDisabledPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 private fun ButtonDisabledDarkPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonSecondary(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Disabled".uppercase(),
@@ -323,7 +323,7 @@ private fun ButtonDisabledDarkPreview() {
 @Preview(showBackground = true)
 @Composable
 private fun ButtonBackPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonBack(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Back to login",
@@ -336,7 +336,7 @@ private fun ButtonBackPreview() {
 @Preview(showBackground = true, uiMode = UI_MODE_NIGHT_YES)
 @Composable
 private fun ButtonBackDarkPreview() {
-    BoilerPlateTheme(dynamicColor = false) {
+    EasyChatTheme(dynamicColor = false) {
         ButtonBack(
             modifier = Modifier.padding(all = MaterialTheme.dimensions.medium),
             text = "Back to login",

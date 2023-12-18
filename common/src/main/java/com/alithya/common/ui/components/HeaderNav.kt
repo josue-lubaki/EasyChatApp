@@ -19,7 +19,7 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.alithya.common.ui.themes.BoilerPlateTheme
+import com.alithya.common.ui.themes.EasyChatTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -72,7 +72,7 @@ fun HeaderNav(
 @Preview
 @Composable
 private fun HeaderNavPreview() {
-    BoilerPlateTheme {
+    EasyChatTheme {
         HeaderNav(
             title = "Work Skils",
             onClick = {}
